@@ -1,0 +1,29 @@
+body {
+    background-color: #adb5bd;
+}
+#main-heading {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+header {
+    text-align: center;
+}
+nav {
+   
+    margin-bottom: 10vw;
+}
+.quote {
+    font-size: 3em;
+}
+.author {
+    font-size: 20px;
+}
+.quote, .author {
+    text-align: center;
+}
+    
+.other-buttons button {
+    background: #343a40;
+    color: white;
+}

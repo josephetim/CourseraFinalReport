@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+     <!-- Bootstrap Font Awesome -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="finalreport.css">
+    <title>QUOTAR</title>
+</head>
+<body>
+    <header><p id="main-heading">QUOTAR</p>
+        <p><i>...when quotes matter the most</i></p>
+    </header>
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <form class="form-group row align-items-center ml-1 mr-1 ml-sm-0 mr-sm-0">
+                <label for="basic-url" class="form-label col-12 "> Search for Quote
+                </label>
+                <div class="input-group mb-3 col-12 col-sm-6 col-lg-6 ">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-quote-left"></i></span>
+                    <input type="text" class="form-control" placeholder="Who made the Quote?" aria-label="quote-name" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3 col-12 col-sm-6 col-lg-5">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa fa-hashtag"></i></span>
+                    <input type="text" class="form-control" placeholder="Keywords" aria-label="Keywords"                aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3 col-12 col-sm-3 col-lg-12 justify-content-center">
+                    <button type="button" class="btn btn-dark mb-3 col-lg-6">Search</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row other-buttons justify-content-between ml-1 mr-1 ml-sm-0 mr-sm-0">
+            <button type="button" class="btn col-5">Create Your Quote</button>
+            <button type="button" class="btn col-5">Generate Random Quotes</button>
+        </div>
+    </div>
+</body>
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</html>
